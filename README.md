@@ -1,21 +1,28 @@
-Dicee Flutter App
+# **Dicee Flutter App**
 
-Project Description
+## **Project Description**
 
-The Dicee app is a beginner-friendly Flutter project that simulates rolling dice. This app demonstrates the use of StatefulWidget, random number generation, and Flutter’s widget system to create a fun and interactive user experience.
+The **Dicee** app is a beginner-friendly Flutter project that simulates rolling dice. This app demonstrates the use of `StatefulWidget`, random number generation, and Flutter’s widget system to create a fun and interactive user experience.
 
-Features
-	•	Two Dice Simulation: Two dice are displayed on the screen.
-	•	Random Dice Rolls: Tapping on either dice generates a random number between 1 and 6 for both dice.
-	•	Interactive Design: Uses Flutter’s setState() to dynamically update the UI when dice are rolled.
-	•	Dynamic Image Updates: Dice faces update based on the rolled numbers.
+---
 
-Project Structure
-	•	main.dart: Contains the app’s core logic, including UI layout and random dice face generation.
-	•	Images Folder: Stores dice face images (dice1.png to dice6.png). These images are used to represent the dice rolls visually.
+## **Features**
 
-Ensure that the images are placed in the assets/images directory, and the pubspec.yaml file is updated accordingly:
+- **Two Dice Simulation**: Two dice are displayed on the screen.
+- **Random Dice Rolls**: Tapping on either dice generates a random number between 1 and 6 for both dice.
+- **Interactive Design**: Uses Flutter’s `setState()` to dynamically update the UI when dice are rolled.
+- **Dynamic Image Updates**: Dice faces update based on the rolled numbers.
 
+---
+
+## **Project Structure**
+
+- **`main.dart`**: Contains the app’s core logic, including UI layout and random dice face generation.
+- **Images Folder**: Stores dice face images (`dice1.png` to `dice6.png`). These images are used to represent the dice rolls visually.
+
+Ensure that the images are placed in the `assets/images` directory, and the `pubspec.yaml` file is updated accordingly:
+
+```yaml
 flutter:
   assets:
     - images/dice1.png
@@ -53,3 +60,4 @@ Future Enhancements
 License
 
 This project is licensed under the MIT License. You are free to use, modify, and distribute it as you see fit.
+
