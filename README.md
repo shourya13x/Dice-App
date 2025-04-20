@@ -20,17 +20,7 @@ The **Dicee** app is a beginner-friendly Flutter project that simulates rolling 
 - **`main.dart`**: Contains the app’s core logic, including UI layout and random dice face generation.
 - **Images Folder**: Stores dice face images (`dice1.png` to `dice6.png`). These images are used to represent the dice rolls visually.
 
-Ensure that the images are placed in the `assets/images` directory, and the `pubspec.yaml` file is updated accordingly:
 
-```yaml
-flutter:
-  assets:
-    - images/dice1.png
-    - images/dice2.png
-    - images/dice3.png
-    - images/dice4.png
-    - images/dice5.png
-    - images/dice6.png
 
 How It Works
 	1.	Initial State: The app starts with two dice showing the number 1.
